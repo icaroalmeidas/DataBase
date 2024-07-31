@@ -1,4 +1,4 @@
-# DataBase
+# DataBase Project
 Projeto de Banco de Dados
 
 Criando máquina virtual usando o VirtualBox da Oracle
@@ -7,3 +7,6 @@ Criando máquina virtual usando o VirtualBox da Oracle
 
 Instalando o Windows 11 na máquina virtual 
 ![image](https://github.com/user-attachments/assets/9e7713d6-bcaa-4cac-bb5f-2188cb1ff15c)
+
+Máquina virtual instalada e com o MySQL instalado e configurado.
+![image](https://github.com/user-attachments/assets/7b69160f-fd6a-4bb1-8885-6e2eca0cd186)
