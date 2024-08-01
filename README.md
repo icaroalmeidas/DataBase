@@ -1,6 +1,21 @@
 # DataBase Project
 Projeto de Banco de Dados
 
+Requisitos de Software
+
+O cliente Tera Comércio de Produtos S.A, solicitou a modelagem de um banco de dados para cadastro dos seus clientes.
+A função da Unidados é a análise dos requisitos junto aos usuários para a correta construção do produto. O cliente deseja que inicialmente os scripts sejam construídos para o Banco de Dados MySQL, porém, posteriormente pode haver mudança no ambiente e consequentemente adaptação dos scripts para outros produtos de SGBD.
+O cliente não quer nenhuma informação relativa à vendas ou estoque, desejando somente as informações primárias de Clientes.
+
+O nosso cliente solicitou uma tabela para armazenar os livros que são comercializados pela empresa. A solicitação é somente para livros e não há a necessidade de realizar busca em outras tabelas. Hoje há um funcionário de vendas que tem uma tabela do Excel para guardar esses registros, mas as buscas estão ficando complexas. Decidiu-se então criar um banco de dados separado para esse funcionário.
+Após a criação da tabela, deveremos entregar algumas queries prontas para que sejam enviadas para o programador. As queries são as seguintes:
+1 – Trazer todos os dados.
+2 – Trazer o nome do livro e o nome da editora
+3 – Trazer o nome do livro e a UF dos livros publicados por autores do sexo masculino.
+4 - Trazer o nome do livro e o número de páginas dos livros publicados por autores do sexo feminino.
+5 – Trazer os valores dos livros das editoras de São Paulo.
+6 – Trazer os dados dos autores do sexo masculino que tiveram livros publicados por São Paulo ou Rio de Janeiro (Questão Desafio).
+
 Criando máquina virtual usando o VirtualBox da Oracle
 
 ![image](https://github.com/user-attachments/assets/e77f7126-68cc-4b8d-a60d-d9d245fe2192)
@@ -10,3 +25,54 @@ Instalando o Windows 11 na máquina virtual
 
 Máquina virtual instalada e com o MySQL instalado e configurado.
 ![image](https://github.com/user-attachments/assets/7b69160f-fd6a-4bb1-8885-6e2eca0cd186)
+
+Excelente MySQL instalado e condifurado chegou a hora de criarmos nosso banco de dados, tabela e inserir os atributos.
+
+Aqui temos o nosso codigo de criação do database e a tabela com os atributos.
+
+![image](https://github.com/user-attachments/assets/5de9d890-d305-4b27-b01e-1a6c4db66491)
+
+Abaixo já podemos ver que o nosso database está criado e ativo. 
+
+![image](https://github.com/user-attachments/assets/803da9b5-5981-4f58-9f67-2e0aee90668e)
+
+Vamos criar a nossa tabela.
+Selecionamos o nosso database e criamos nossa tabela abaixo.
+
+![image](https://github.com/user-attachments/assets/6e927e48-57f1-402a-a607-f9ef84b6e5aa)
+![image](https://github.com/user-attachments/assets/5d395890-ae8b-4f0b-bcd8-766df58156a5)
+
+Criando o codigo de inserção no notepadd++
+![image](https://github.com/user-attachments/assets/de0860cc-4969-4dd4-9c0c-de42a5e9e8d6)
+
+Inserindo os dados na tabela e exibindo.
+![image](https://github.com/user-attachments/assets/cf6dc7de-8aa0-4cb4-a63c-dd7211bbc15f)
+
+Abaixo usando co comando ALTER TABLE para inserirmos uma coluna de LIVRO_ID para ser a chave primária da nossa tabela.
+![image](https://github.com/user-attachments/assets/5ba02d38-71f2-4933-a42b-abd2f9df6365)
+![image](https://github.com/user-attachments/assets/0863393c-2c38-48d2-a93e-79df282dbf07)
+
+Após a criação da tabela, deveremos entregar algumas queries prontas para que sejam enviadas para o programador. As queries são as seguintes:
+
+1 – Trazer todos os dados.
+![image](https://github.com/user-attachments/assets/349c3b3c-d472-4932-9ecd-0432248f3970)
+
+2 – Trazer o nome do livro e o nome da editora
+![image](https://github.com/user-attachments/assets/6ff8a8ea-3b63-4eb9-9137-cb134c96d8ec)
+
+3 – Trazer o nome do livro e a UF dos livros publicados por autores do sexo masculino.
+![image](https://github.com/user-attachments/assets/5d514f0c-107f-446c-bacd-7bb5ff5e55ef)
+
+4 - Trazer o nome do livro e o número de páginas dos livros publicados por autores do sexo feminino.
+![image](https://github.com/user-attachments/assets/52c42505-3cf0-43f7-a1a5-b46f2758c2f9)
+
+5 – Trazer os valores dos livros das editoras de São Paulo.
+![image](https://github.com/user-attachments/assets/b0fe9f00-961d-4bcd-9968-9786094cef72)
+
+6 – Trazer os dados dos autores do sexo masculino que tiveram livros publicados por São Paulo ou Rio de Janeiro (Questão Desafio).
+![image](https://github.com/user-attachments/assets/dc85ea8c-a1a2-479d-9503-8c2a036552e3)
+
+
+
+
+
