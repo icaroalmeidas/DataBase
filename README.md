@@ -72,6 +72,11 @@ Após a criação da tabela, deveremos entregar algumas queries prontas para que
 6 – Trazer os dados dos autores do sexo masculino que tiveram livros publicados por São Paulo ou Rio de Janeiro (Questão Desafio).
 ![image](https://github.com/user-attachments/assets/dc85ea8c-a1a2-479d-9503-8c2a036552e3)
 
+Vamos trabalhar neste banco de dados. Criamos o banco de dados e a tabela funcionarios e inserimos os dados. 
+![image](https://github.com/user-attachments/assets/b243f3d9-c340-4ecb-9e36-602fa21234c7)
+
+Fizemos uma query básica para olharmos a estrutura da nossa tabela e outra para vermos a quantidade de registros. selecy 
+![image](https://github.com/user-attachments/assets/157be514-d857-4ebb-9b21-29fae791dafc)
 
 
 
