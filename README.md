@@ -86,11 +86,15 @@ Aqui fizemos uma contagem do numero de colaboradores por departamento.
 Na query utilizamos o select para projetar o nome do departamento e a quantidade de colaboradres, utilizamo o alias para nomear a coluna da contagem  e usamos o group by para agrupar a contagem por departamento. 
 ![image](https://github.com/user-attachments/assets/92d45eb8-856f-4134-aee0-8eea13abd4a9)
 
-O gestor de marketing pediu a lista das funcionarias (AS) = FEMININO que trabalhem no departamento de filmes ou no departamento lar. Ele necessita enviar um email para as colaboradoras desses dois setores. Aqui vamos usar os operador OR e AND juntos. 
+O gestor de marketing pediu a lista das funcionarias (AS) = FEMININO que trabalhem no departamento de filmes ou no departamento lar. Ele necessita enviar um email para as colaboradoras desses dois setores. Aqui vamos usar os operadores OR e AND juntos. 
 ![image](https://github.com/user-attachments/assets/2e6c53a0-5b35-4e93-b302-2f3488fea8a0)
-Desta forma podemos tranferir este resultado para o gestor exacutar a tarefa desejada. 
+Desta forma podemos transferir este resultado para o gestor exacutar a tarefa desejada. 
 
+Aqui seguem algumas consultas que podemos extrair sobre a coluna salario. 
+![image](https://github.com/user-attachments/assets/916f5116-fd0f-4525-bad4-3530f2bfeba9)
 
+Aqui podemos ver a média dos salarios por departamento.
+![image](https://github.com/user-attachments/assets/4ef87302-451d-418f-ae3f-7771efbb8034)
 
 
 
