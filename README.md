@@ -86,6 +86,9 @@ Aqui fizemos uma contagem do numero de colaboradores por departamento.
 Na query utilizamos o select para projetar o nome do departamento e a quantidade de colaboradres, utilizamo o alias para nomear a coluna da contagem  e usamos o group by para agrupar a contagem por departamento. 
 ![image](https://github.com/user-attachments/assets/92d45eb8-856f-4134-aee0-8eea13abd4a9)
 
+O gestor de marketing pediu a lista das funcionarias (AS) = FEMININO que trabalhem no departamento de filmes ou no departamento lar. Ele necessita enviar um email para as colaboradoras desses dois setores. Aqui vamos usar os operador OR e AND juntos. 
+![image](https://github.com/user-attachments/assets/2e6c53a0-5b35-4e93-b302-2f3488fea8a0)
+Desta forma podemos tranferir este resultado para o gestor exacutar a tarefa desejada. 
 
 
 
