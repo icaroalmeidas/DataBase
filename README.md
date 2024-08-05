@@ -78,6 +78,16 @@ Vamos trabalhar neste banco de dados. Criamos o banco de dados e a tabela funcio
 Fizemos uma query básica para olharmos a estrutura da nossa tabela e outra para vermos a quantidade de registros. selecy 
 ![image](https://github.com/user-attachments/assets/157be514-d857-4ebb-9b21-29fae791dafc)
 
+Traga os funcionarios que trabalhem no departamento de filmes OU no departamento de roupas.
+![image](https://github.com/user-attachments/assets/e7161512-b7b8-4a94-8bbc-fbf96ac60328)
+Como estamos trabalhando com OR e a segunda condicao é opcional colocamos na primeira condicao quem tem mais chances de uma saida verdadeira, pois a segunda condicao nao será checada nesse caso.
+
+Aqui fizemos uma contagem do numero de colaboradores por departamento. 
+Na query utilizamos o select para projetar o nome do departamento e a quantidade de colaboradres, utilizamo o alias para nomear a coluna da contagem  e usamos o group by para agrupar a contagem por departamento. 
+![image](https://github.com/user-attachments/assets/92d45eb8-856f-4134-aee0-8eea13abd4a9)
+
+
+
 
 
 
