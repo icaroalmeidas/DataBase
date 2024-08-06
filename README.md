@@ -96,5 +96,16 @@ Aqui seguem algumas consultas que podemos extrair sobre a coluna salario.
 Aqui podemos ver a média dos salarios por departamento.
 ![image](https://github.com/user-attachments/assets/4ef87302-451d-418f-ae3f-7771efbb8034)
 
+Utilizando o comando UPDATE para atualizarmos nossa tabela. Deve ter muito cuidado ao atualizar uma tabela sem o uso da função WHERE que irá indiciar exatamene o item que deve ser atualizado. Ao usar esse comando de forma inadequada vocÊ poderá atualizar uma tabela inteira causando muiotos problemas. 
+Podemos ver que o cliente Liliam está com e-mail vazio, após o uso do comando update conseguimos inserir um e-mail para a cliente. 
+![image](https://github.com/user-attachments/assets/cdf20c85-6a5b-4623-9e13-fdc6c72703cb)
+
+Utilizando a função DELETE uma das funções mais perigosas a serem usadas, pois, como o nome mesmo é bem claro vocÊ irá deletar itens do seu banco de dados ou itens da sua tabela.
+![image](https://github.com/user-attachments/assets/a799087b-1535-4ff6-bb28-8b05f40147af)
+
+
+
+
+
 
 
