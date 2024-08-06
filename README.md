@@ -1,4 +1,4 @@
-# DataBase Project
+# DataBase Project - MySQL 
 Projeto de Banco de Dados
 
 Requisitos de Software
@@ -15,6 +15,8 @@ Após a criação da tabela, deveremos entregar algumas queries prontas para que
 4 - Trazer o nome do livro e o número de páginas dos livros publicados por autores do sexo feminino.
 5 – Trazer os valores dos livros das editoras de São Paulo.
 6 – Trazer os dados dos autores do sexo masculino que tiveram livros publicados por São Paulo ou Rio de Janeiro (Questão Desafio).
+
+# OBS: NO PRIMEIRO MOMENTO VAMOS APENAS FAZER ALGUNS TESTES PARA APRENDER ALGUNS COMANDOS E DEPOIS IREMOS MODELAR O BANCO DE DADOS. 
 
 Criando máquina virtual usando o VirtualBox da Oracle
 
@@ -103,6 +105,29 @@ Podemos ver que o cliente Liliam está com e-mail vazio, após o uso do comando 
 Utilizando a função DELETE uma das funções mais perigosas a serem usadas, pois, como o nome mesmo é bem claro vocÊ irá deletar itens do seu banco de dados ou itens da sua tabela.
 ![image](https://github.com/user-attachments/assets/a799087b-1535-4ff6-bb28-8b05f40147af)
 
+AO USAR DELETE OU UPDATE CUIDADO!
+
+## AGORA QUE FIZEMOS VARIOS TESTES E APRENDEMOS ALGUNS COMANDOS VAMOS APRENDER A MODELAGEM DE BANCO DE DADOS. ALGO SUPER IMPORTANTE PARA ESSA CONSTRUÇÃO.
+
+ALGUNS CONCEITOS SÃO NECESSÁRIOS PARA FAZERMOS ESSA MODELAGEM.
+
+### PRIMEIRA FORMA NORMAL
+1 - TODO CAMPO VETORIZADO SE TORNARÁ OUTRA TABELA.
+EXEMPLOS: [AMARELO, AZUL, VERMELHO, LARANJA] - ESTE É UM VETOR DE CORES
+[GELADEIRA, FOGAO, MICROONDAS] - ESTE É UM VETOR DE ELETRO DOMÉSTICOS
+[TELEFONE CELULAR, TELEFONE COMERCIAL] - VETOR DE NUMEROS DE TELEFONES
+OU SEJA, VETORES SÃO COMPOSTOS DE ITEMS DE UMA MESMA FAMILIA.
+
+2 - TODO CAMPO MULTI VALORADO SE TORNARÁ OUTRA TABELA OU QUANDO O CAMPO FOR DIVISÍVEL.
+CAMPOS MULTI VALORADO SÃO VETORES QUE NÃO SÃO DA MESMA FAMILIA.
+EXEMPLOS:
+ENDEREÇO: RUA - NAIRRO - CIDADE - ESTADO | [RUA ABC - SÃO JOSÉ - IPIRANGA - BA]
+
+3 - TODA TABELA NECESSITA DE PELO MENOS UM CAMPO QUE IDEINTIFIQUE TODO O REGISTRO INTEIRO(LINHA) COMO SENDO UNICO. 
+CHAMADO CHAVE PRIMÁRIA/PRIMARY KEY
+
+### MODELAGEM LÓGICA 
+![image](https://github.com/user-attachments/assets/07574e4d-f8b2-457f-b10a-c0100e004af9)
 
 
 
