@@ -130,13 +130,13 @@ CHAMADO CHAVE PRIMÁRIA/PRIMARY KEY
 Na imagem podemos ver as nossas tabelas com suas colunas, as relações e cardinalidade.
 ![image](https://github.com/user-attachments/assets/07574e4d-f8b2-457f-b10a-c0100e004af9)
 
-Tabelas criadas com suas respectivas chaves primárias e chaves estrangeiras. Todas definidas e referênciadas.
-A regra para definir quais tabelas irão receber as chevas estrangeiras são:
+A regra para definir quais tabelas irão receber as chaves estrangeiras são:
+#### CHAVE ESTRANGEIRA É A CHAVE PRIMARIA DE UMA TABELA QUE VAI ATÉ A OUTRA TABELA PARA FAZER REFERENCIA ENTRE REGISTROS.
 Quando o relacionamento é (1,1) a chave estrangeiras irá para a tabela mais fraca, que será definida pela regra do negócio.
 
 ![image](https://github.com/user-attachments/assets/95a3ff6c-e574-4e42-9ba7-7c6a6e69b6aa)
 
-No nosso banco de dados a relação entra a tabela cliente e endereço é um para um(1,1), ou seja, haverá apenas um endereço para cada cliente.
+No nosso banco de dados a relação entre a tabela cliente e endereço é um para um(1,1), ou seja, haverá apenas um endereço para cada cliente.
 Como o nosso objetivo é ter o cadastro do cliente a tabela cliente é a mais forte.
 Quando a relação entre as tabelas tiverem a relação de (0,n) a tabela onde a chave estrangeira irá ser colocada é a que tem a relação n.
 No nosso exemplo a relação entre a tabela cliente e a tabela telefone é (0,n), ou seja, não é obrigatório o cliente ter telefone, mas caso, ele queira ele pode colocar mais de um telefone. 
@@ -145,7 +145,33 @@ Abaixo podemos ver as nossas tabelas criadas seguindo as regras acima.
 
 ![image](https://github.com/user-attachments/assets/0a1c3f79-714a-4175-87df-c75615c67765)
 
+Inserindo dados na tabela cliente.
+![image](https://github.com/user-attachments/assets/648b9c38-9f5c-4c4e-a535-669523690eb6)
 
+Inserindo dados na tabela endereço.
+Podemos ver na imagem em destaque as chaves estrangeiras na tabela endereço batendo com a chave primaria da tabela cliente. A relação é de (1,1) um para um a chave estrangeira não se repete.
+![image](https://github.com/user-attachments/assets/8db0c9f7-1f7f-4d81-98ee-7e49dbd444fa)
+
+Inserindo oa dados na tabela telefone.
+Como podemos ver abaixo a chave estrangeira ID_CLIENTE se repete. Pois, o relecionamento entra as tabelas cliente e telefone é (0,n), ou seja, não é obrigatório ter telefone mas se tiver o cliente pode fornecer mais de um. O cliente de IDCLIENTE(chave primeria na tabela cliente) numero 5 tem três telefones.
+![image](https://github.com/user-attachments/assets/3cc60af3-3db0-4a27-865c-5c76ad55d752)
+
+Entendendo as partes de uma query.
+As etapas são Projeção, seleção e junção.
+Projeção: tudo que você quer ver na tela. O SELECT é o responsável pela projeção. 
+Na query SELECT * FROM CLIENTE;
+Estou solicitando que seja projetada toda a tabela cliente.
+![image](https://github.com/user-attachments/assets/27f39e21-c03d-4c8d-89cb-91c7f8602ea4)
+
+Seleção: é um filtragem, ou seja, eu estou filtrando as informações.
+Na query SELECT * FROM CLIENTE WHERE SEXO = 'F'; Estou filtrando as informações pelo sexo.
+![image](https://github.com/user-attachments/assets/22542f8d-b551-4353-b51b-4074b5ab662c)
+
+Ou seja, SELEÇÃO é um subconjunto do meu conjunto total. 
+
+O FROM mostra a origem de onde virá as informações. Ou seja, a origem.
+
+Junção:
 
 
 
