@@ -126,8 +126,25 @@ ENDEREÇO: RUA - NAIRRO - CIDADE - ESTADO | [RUA ABC - SÃO JOSÉ - IPIRANGA - B
 3 - TODA TABELA NECESSITA DE PELO MENOS UM CAMPO QUE IDEINTIFIQUE TODO O REGISTRO INTEIRO(LINHA) COMO SENDO UNICO. 
 CHAMADO CHAVE PRIMÁRIA/PRIMARY KEY
 
-### MODELAGEM LÓGICA 
+### MODELAGEM LÓGICA
+Na imagem podemos ver as nossas tabelas com suas colunas, as relações e cardinalidade.
 ![image](https://github.com/user-attachments/assets/07574e4d-f8b2-457f-b10a-c0100e004af9)
+
+Tabelas criadas com suas respectivas chaves primárias e chaves estrangeiras. Todas definidas e referênciadas.
+A regra para definir quais tabelas irão receber as chevas estrangeiras são:
+Quando o relacionamento é (1,1) a chave estrangeiras irá para a tabela mais fraca, que será definida pela regra do negócio.
+
+![image](https://github.com/user-attachments/assets/95a3ff6c-e574-4e42-9ba7-7c6a6e69b6aa)
+
+No nosso banco de dados a relação entra a tabela cliente e endereço é um para um(1,1), ou seja, haverá apenas um endereço para cada cliente.
+Como o nosso objetivo é ter o cadastro do cliente a tabela cliente é a mais forte.
+Quando a relação entre as tabelas tiverem a relação de (0,n) a tabela onde a chave estrangeira irá ser colocada é a que tem a relação n.
+No nosso exemplo a relação entre a tabela cliente e a tabela telefone é (0,n), ou seja, não é obrigatório o cliente ter telefone, mas caso, ele queira ele pode colocar mais de um telefone. 
+
+Abaixo podemos ver as nossas tabelas criadas seguindo as regras acima.
+
+![image](https://github.com/user-attachments/assets/0a1c3f79-714a-4175-87df-c75615c67765)
+
 
 
 
